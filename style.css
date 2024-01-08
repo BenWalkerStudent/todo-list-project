@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(52, 52, 52);
+}
+
+.list-item {
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+
+}
+
+.list-item li {
+
+  font-size: 25px;
+
+  color: white;
+
+}
+
+.edit {
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.edit.hide {
+
+  visibility: hidden;
+
+}
+
+.edit-btn {
+
+  background-color: white;
+
+  border: solid black 2px;
+
+  border-radius: 5%;
+
+  padding: 6px;
+
+}
+
+.edit input {
+
+  border: solid black 1px;
+
+  padding: 5px;
+
+  max-width: 150px;
+
+}
+
+
+
+.info-btn {
+
+  max-width: 30px;
+
+  max-height: 30px;
+
+  visibility: visible;
+
+  padding: 0;
+
+}
+
+
+.order-btn {
+
+  width: 20px;
+
+}
